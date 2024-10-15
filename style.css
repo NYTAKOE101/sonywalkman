@@ -1,0 +1,78 @@
+@font-face{
+    font-family: "Verdana";
+    src: local('Verdana'),
+    url(/library/Verdana.ttf);
+    }
+
+body{
+margin: 0;
+background-color:white;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: ease-in-out 0.3s;
+}
+
+body.darkmode{
+background-color: black;
+transition: ease-in-out 0.3s;
+}
+
+.main_text{
+    padding: 20px;
+    font-family: 'Verdana';
+    }
+  
+.header{
+display: flex;
+justify-content: center;
+}    
+
+.wrapper{
+background-color: rgb(176, 176, 176);
+width: 1000px;
+height: auto;
+}
+.btn-toggle{
+border-radius: 10px;
+margin: 10px;
+}
+
+
+.object{
+display: flex;
+max-width: 400px;
+background-color: whitesmoke;
+border-radius: 10px;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1), 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+
+.name_n_year{
+background-color: rgb(81, 81, 81);
+display: flex;
+justify-content: center;
+border-radius: 10px;
+color: aliceblue;
+}
+.information{
+margin:10px;
+font-family: 'Verdana';
+font-size: small;
+    }
+.catalog{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+}
+.darkmode{
+display: flex;
+background-color:aliceblue;
+border-radius: 10px;
+font-family: 'Verdana';
+}
+.img{
+display: flex;
+}
+
